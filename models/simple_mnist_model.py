@@ -4,10 +4,10 @@ Copyright (c) 2018. All rights reserved.
 Created by C. L. Wang on 2018/4/18
 """
 import os
-from keras import Input, Model
-from keras.layers import Dense
-from keras.optimizers import Adam
-from keras.utils import plot_model
+from tensorflow.keras import Input, Model
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.utils import plot_model
 
 from bases.model_base import ModelBase
 

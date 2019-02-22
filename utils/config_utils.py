@@ -52,6 +52,13 @@ def get_train_args():
         metavar='path',
         default='None',
         help='add a configuration file')
+    parser.add_argument(
+        '-p', '--pre',
+        dest='pre_train',
+        metavar='',
+        default='None',
+        help='add a model file'
+    )
     args = parser.parse_args()
     return args, parser
 

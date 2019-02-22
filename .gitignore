@@ -106,6 +106,7 @@ venv.bak/
 .mypy_cache/
 
 .idea/
+.vscode/
 
 # data
 experiments/

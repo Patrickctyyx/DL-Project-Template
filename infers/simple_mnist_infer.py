@@ -6,7 +6,7 @@ Created by C. L. Wang on 2018/4/18
 import os
 
 from bases.infer_base import InferBase
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 
 class SimpleMnistInfer(InferBase):

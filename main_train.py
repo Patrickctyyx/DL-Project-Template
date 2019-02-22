@@ -74,5 +74,5 @@ def test_main():
 
 
 if __name__ == '__main__':
-    # main_train()
-    test_main()
+    main_train()
+    # test_main()
